@@ -1,0 +1,167 @@
+/*Inherited by all 'logos' (selectable element images on home.html)*/
+#airLogo, #fireLogo, #earthLogo, #waterLogo, .air-gif, .fire-gif, .earth-gif, .water-gif {
+  margin: auto;
+  display: block;
+}
+
+/*Inherited by all gifs (one found on each element page)*/
+.air-gif, .fire-gif, .earth-gif, .water-gif {
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 3px;
+}
+
+/*Inherited by all buttons linking between pages*/
+.air-button, .fire-button, .earth-button, .water-button, .home-button {
+  border-width: 2px;
+  border-radius: 7px;
+  margin: 20px;
+  width: 100px !important;
+  height: 50px !important;
+  border-style: solid;
+}
+
+/*size variable used to set identical width and height of all home page element logos*/
+/*All p in div selector*/
+div p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+div table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  border: 2px solid;
+}
+div table th, div table td {
+  border: 1px solid;
+  padding: 6px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+/*selects all divs where the parent has class .row*/
+.row > div {
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 3px;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+  padding: 1px;
+}
+
+/*classes applied to the home page element logos for individual background and border colouring*/
+.water-tab {
+  background-color: #5c9cd4;
+  border-color: #2b6aa1;
+}
+
+.earth-tab {
+  background-color: #59892a;
+  border-color: #40621e;
+}
+
+.fire-tab {
+  background-color: #942c1c;
+  border-color: #561910;
+}
+
+.air-tab {
+  background-color: #bcbce4;
+  border-color: #8585ad;
+}
+
+/*ids for margins and widths of home page element logos*/
+#waterLogo {
+  margin-top: 6px;
+  width: 190px;
+}
+
+#earthLogo {
+  margin-top: 6px;
+  width: 180px;
+}
+
+#fireLogo {
+  margin-top: 2px;
+  width: 170px;
+}
+
+#airLogo {
+  margin-top: 7px;
+  margin-left: 7px;
+  width: 180px;
+}
+
+/*centers text and adds padding to every page header*/
+h1 {
+  text-align: center;
+  padding: 5%;
+}
+
+/*selects all divs with class .col-sm*/
+div.col-sm {
+  margin-top: 40px;
+}
+
+/*Border colors and gif elements applied to the gifs at the bottom of each element page*/
+.water-gif {
+  border-color: #1b4265;
+}
+
+.earth-gif {
+  border-color: #40621e;
+}
+
+.fire-gif {
+  border-color: #41140c;
+}
+
+.air-gif {
+  border-color: #5c5c8a;
+}
+
+/*Classes inheriting %button elemtns that set the background and border colours of the buttons
+  linking to each page. Background colors marked with !important to override the default bootstrap
+  priamary button color*/
+.home-button {
+  background-color: #fbd473 !important;
+  border-color: #dfa107;
+}
+
+.water-button {
+  background-color: #5c9cd4 !important;
+  border-color: #2b6aa1;
+}
+
+.earth-button {
+  background-color: #59892a !important;
+  border-color: #334e18;
+}
+
+.fire-button {
+  background-color: #942c1c !important;
+  border-color: #561910;
+}
+
+.air-button {
+  background-color: #bcbce4 !important;
+  border-color: #8585ad;
+}
+
+/*Increases border width of buttons when they're hovered over*/
+.home-button:hover, .water-button:hover, .earth-button:hover, .fire-button:hover, .air-button:hover {
+  border-width: 4px !important;
+}
+
+/*# sourceMappingURL=style.css.map */
